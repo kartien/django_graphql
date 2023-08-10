@@ -1,0 +1,7 @@
+# pycahce
+**/__pycache__/
+# virtualenviroment
+env
+# db local
+db.sqlite3
+

@@ -27,4 +27,8 @@ jobs:
         pip install -r requirements.txt
     - name: Run 
       run: |
-        python manage.py runserver
+       python manage.py runserver 0.0.0.0:8080
+
+    - name: Run Tests
+      run: |
+        python manage.py test
